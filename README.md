@@ -1,2 +1,2 @@
-# AVL_Tree
-Simple AVL tree implement
+# AVL Tree
+Simple AVL tree implement in C++
