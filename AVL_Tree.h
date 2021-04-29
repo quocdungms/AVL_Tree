@@ -225,6 +225,7 @@ typename AVL<T>::Node* AVL<T>::remove(Node*& node, const T& element) {
 		if (node->left == NULL) node = node->right;
 		else if (node->right == NULL) node = node->left;
 		delete temp;
+		numOfNode--;
 	}
 	if (node == NULL) return node;
 	node = this->balance(node);
